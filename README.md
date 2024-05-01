@@ -33,10 +33,10 @@ The admin folder contains the backend interface for managing products, orders, a
 
 Here are some screenshots of the online clothes ordering system:
 
-- [Homepage](https://drive.google.com/file/d/1XuOeTs75GJ93KE4EllK03x3DBZInLiRe/view?usp=sharing)
-- [Product Page](insert_product_page_screenshot_link_here)
-- [Shopping Cart](insert_shopping_cart_screenshot_link_here)
-- [Admin Dashboard](insert_admin_dashboard_screenshot_link_here)
+- ![Homepage](https://drive.google.com/file/d/1XuOeTs75GJ93KE4EllK03x3DBZInLiRe/view?usp=sharing)
+- ![Product Page](insert_product_page_screenshot_link_here)
+- ![Shopping Cart](insert_shopping_cart_screenshot_link_here)
+- ![Admin Dashboard](insert_admin_dashboard_screenshot_link_here)
 
 ## Getting Started
 
