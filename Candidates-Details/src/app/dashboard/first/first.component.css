@@ -1,0 +1,31 @@
+.container{
+    text-align: center;
+}
+.form-group{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+}
+.form-group label{
+  color: rgb(45, 45, 45);
+  text-align: left;
+  font-weight: 400;
+  padding: 5px;
+}
+.form-group input{
+  height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+}
+.submit-btn{
+  height: 35px;
+  margin-right: 44%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  background: #1224ec;
+  color: rgb(248, 247, 244);
+  border: none;
+}

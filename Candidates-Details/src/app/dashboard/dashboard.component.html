@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="navbar">
+      <div class="nav-left">intersect<span>IQ</span></div>
+      <div class="nav-right">
+        <h2>Admin</h2>
+        <mat-icon>account_circle</mat-icon>
+      </div>
+    </div>
+    <div class="sidebar-con">
+      <div class="sidebar">
+        <li (click)="showAddRecord()"><mat-icon>playlist_add</mat-icon>Add Record</li>
+        <li (click)="showViewRecord(receivedData)"><mat-icon>table_view</mat-icon>View Record</li>
+      </div>
+      <div class="bodypart">
+        <h2>Candidate Details</h2>
+        <div *ngIf="showComponentOne">
+          <app-first (dataEmitter)="receiveData($event)"></app-first>
+        </div>
+        <div *ngIf="showComponentTwo">
+          <app-second [receivedData]="receivedData"></app-second>
+        </div>
+      </div>
+    </div>
+  </div>
+  

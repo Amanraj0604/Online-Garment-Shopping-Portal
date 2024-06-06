@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    background: #baedf4;
+}
+.nav-left{
+    flex: 50;
+    padding: 20px;
+    color: blue;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-left span{
+    color: red;
+}
+.nav-right{
+    display: flex;
+    flex:50;
+    align-items: end;
+    margin-left: 80%;
+    
+}
+.nav-right h2{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-right mat-icon{
+   border: 2px solid black;
+   border-radius: 50%;
+   padding: 2px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   cursor: pointer;
+}
+.sidebar-con{
+    display: flex;
+}
+.sidebar{
+    margin:20px;
+    flex: 20;
+    background: #e4e1e1;
+    padding-bottom: 500px;
+}
+
+.sidebar li{
+    list-style: none;
+    margin: 30px;
+    font-size: 18px;
+    background: #d6d2d2;
+    height: 10%;
+    text-align: start;
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;display: flex;
+    
+}
+.sidebar li:hover{
+    background: #000;
+    color: white;
+    transition: 1s ease-in-out;
+
+}
+.bodypart{
+    flex: 80;
+    margin:20px;
+    background: #ededed;
+}
+.bodypart h2{
+    text-align: center;
+    
+}
